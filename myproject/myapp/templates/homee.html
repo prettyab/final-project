@@ -1,0 +1,85 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salary Prediction</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;  /* Updated font-family */
+      margin: 0;
+      padding: 0;
+      background: url('{% static "employe.jpg" %}') no-repeat center center fixed;
+      background-size: cover;
+      color: #060605;
+    }
+
+    header {
+      font-family: 'Times New Roman', serif;  /* Updated font-family */
+      background-color: #88c7f5;
+      padding: 10px;  /* Adjusted padding */
+      text-align: center;
+    }   
+
+    nav {
+      background-color: #266fe5;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    nav a {
+      font-family: 'Times New Roman', sans-serif;  /* Updated font-family */
+      display: inline-block;
+      color: #fff;
+      padding: 14px 16px;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .container {
+      font-family: 'Times New Roman', sans-serif;  /* Updated font-family */
+      padding: 20px;
+      text-align: center;
+      margin: 20px auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 80%;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #555;
+    }
+
+    /* Add more styles as needed for your salary prediction content */
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome </h1>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="register/">Register</a>
+  <a href="user_login/">Login</a>
+  <a href="Contact/">Contact</a>
+  <a href="About/">About</a>
+  <a href="Service/">Service</a>
+</nav>
+
+<div class="container">
+  <h2>Salary Prediction</h2>
+  <p>Explore our salary prediction tool and find insights into your potential earnings.</p>
+  <!-- Add more content or forms related to salary prediction here -->
+</div>
+
+</body>
+</html>
